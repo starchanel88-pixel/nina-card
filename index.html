@@ -718,17 +718,18 @@
   }
 
 
-  /* MOBILE FIX: smaller headshot pushed down so it never covers the areas line */
+  /* MOBILE FIX v2: text pulled UP near the top, headshot smaller & UP but starting
+     below the areas line so it never overlaps the text. */
   @media (max-width: 480px) {
-    .pc-details { top: 6em !important; }
+    .pc-details { top: 1.6em !important; }
     .pc-avatar-content .avatar {
-      width: 50% !important;
-      top: 44% !important;
+      width: 46% !important;
+      top: 34% !important;
     }
   }
   @media (max-width: 380px) {
-    .pc-details { top: 5.4em !important; }
-    .pc-avatar-content .avatar { width: 46% !important; top: 42% !important; }
+    .pc-details { top: 1.4em !important; }
+    .pc-avatar-content .avatar { width: 44% !important; top: 33% !important; }
   }
 
 </style>
