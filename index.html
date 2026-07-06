@@ -732,6 +732,13 @@
     .pc-avatar-content .avatar { width: 44% !important; top: 33% !important; }
   }
 
+
+  /* FIX: make the contact buttons + modal clickable (override .pc-card * pointer-events:none) */
+  .pc-user-info, .pc-actions, .pc-act, .pc-contact-btn,
+  #pc-wechat-modal, .pc-modal-inner, .pc-modal-close {
+    pointer-events: auto !important;
+  }
+
 </style>
 </head>
 <body>
