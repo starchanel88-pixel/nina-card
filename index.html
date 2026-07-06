@@ -717,6 +717,20 @@
     .pc-handle { font-size: 16px !important; }
   }
 
+
+  /* MOBILE FIX: smaller headshot pushed down so it never covers the areas line */
+  @media (max-width: 480px) {
+    .pc-details { top: 6em !important; }
+    .pc-avatar-content .avatar {
+      width: 50% !important;
+      top: 44% !important;
+    }
+  }
+  @media (max-width: 380px) {
+    .pc-details { top: 5.4em !important; }
+    .pc-avatar-content .avatar { width: 46% !important; top: 42% !important; }
+  }
+
 </style>
 </head>
 <body>
